@@ -2,9 +2,6 @@
 /* font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
 
-# {
-    
-}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -16,15 +13,19 @@ header {
 }
 
 header .grid-layout {
-    width: 90%;
-    background-color: hotpink;
+    width: 80%;
+    background-color:;
     margin: 0%auto;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
    font-family: 'Titillium Web', sans-serif; 
-   color: white;
-    
+   color: white; 
 }
 
 header h1 #logoux {
@@ -33,4 +34,12 @@ header h1 #logoux {
     font-style: italic;
     font-weight: 700;
     font-size: 30px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
 }
